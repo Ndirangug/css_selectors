@@ -1,0 +1,89 @@
+/*type selector*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arial, sans-serif, helvetica;
+}
+
+h1{
+	margin: 0;
+}
+h2, h3, h4, h5, h6{
+	color: green;
+}
+/*class selector*/
+.container{
+	width: 50em;
+	margin: auto;
+}
+.nav{
+	background-color: #CCFF66;
+	padding: 1em 2em;
+	
+	
+}
+.intro{
+	font-size: 1.2em;
+	color: grey;
+}
+/*ID selectors*/
+#header, #footer{
+	background-color: #660066;
+	color: yellow;
+	padding: 2em;
+}
+#main{
+	margin: 1em 3em;
+}
+#footer{
+	text-align: center;
+	padding: 1em;
+	font-size: 0.7em;
+}
+
+/*Universal selectors*/
+/**{
+	border: 0.1em green dashed;
+
+}*/
+/*descendant selectors*/
+.nav li{
+	display: inline;
+	margin-right: 2em;
+}
+
+.nav li a{
+	color: #660066;
+}
+/*child selectors*/
+.nav li > a{
+	text-decoration-line: none;
+} 
+/*adjacent sibling selectors*/
+h3 + h4{
+	background-color: #FFFF66;
+}
+
+h3 + p{
+	padding: 0.5em;
+	border: 0.15em dotted green;
+}
+/*pseudo class selectors*/
+a:link{color: yellow;}
+a:visited{color:red;}
+a:focus{color: green;}
+a:hover{color: #990033;}
+a:active{font-weight: bold; text-transform: rotate(90deg);}
+
+table th{
+	border-bottom: black 0.15em solid;
+}
+table{
+	margin: 1em auto auto auto;
+}
+h1{
+text-align: center;
+}
+table td{
+padding: 0.3em;
+}
